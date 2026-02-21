@@ -21,5 +21,9 @@ systemctl start cups
 ## Filters, ppd, etc.
 Copy the contents of `/usr` to their respective places. Preserve permissions, and make sure to update ownership.
 
-## Conifg
+## Config
 Log into the webgui at `http://localhost:631/admin` and add the printer, assuming its on usb.
+
+## Credit
+Big credit to [Lee Porte](https://tech.leeporte.co.uk/dell-1320c-on-ubuntu-18-04/) who got this 90% of the way there.
+
