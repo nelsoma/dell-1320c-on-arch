@@ -14,7 +14,7 @@ pacman -S lib32-libcups
 
 Make sure cups is started.
 ```bash
-sysctemctl enable cups && \
+systemctl enable cups && \
 systemctl start cups
 ```
 
