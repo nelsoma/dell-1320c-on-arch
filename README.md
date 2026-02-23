@@ -7,9 +7,9 @@ This includes a desktop config.
 pacman -S cups system-config-printer cups-pk-helper print-manager ghostscript
 ```
 
-32bit version of libcups, in Arch comes from `multilib` which might need to be enabled.
+32bit version of libcups, in Arch comes from `multilib` which might need to be enabled in `/etc/pacman.conf`.
 ```bash
-pacman -S lib32-libcups
+pacman -S multilib/lib32-libcups
 ```
 
 Make sure cups is started.
